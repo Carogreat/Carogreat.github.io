@@ -1,0 +1,393 @@
+html {
+  font-size: 18px;
+  background:silver;
+
+}
+
+@media only screen and (max-width: 1000px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 3.55rem;
+  padding: 0 12%;
+  background-color:white;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.05);
+  font-family: Verdana, sans-serif;
+  font-size: .77rem;
+  
+}
+
+.header .logo {
+  flex-grow: 1;
+  background-color:white;
+  height: 1.78rem;
+	padding-bottom: .555rem;
+	margin-left:-8.333rem;
+	
+
+}
+
+.header li {
+  display: inline;
+  padding-right: 2.22rem;
+  background-color: white;
+}
+
+.header li a {
+  text-decoration: none;
+  background-color: white;
+
+  
+}
+
+nav{
+	
+}
+
+
+
+@media only screen and (max-width: 550px) {
+  .header {
+    flex-direction: column;
+	  
+  }
+
+  .header .logo {
+    flex-grow: 0;
+  }
+
+
+		
+}
+
+
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: right;
+  height: 35rem;
+  background-color:silver;
+  padding-top: 1.8rem;
+  color:black;
+  padding-left: 1.333rem;
+	
+  
+}
+
+
+.banner h2 {
+  
+  font-size: 1.33rem;
+  letter-spacing: 0.1111rem;
+  background-color:silver;
+	margin-top: -17.22rem;
+	margin-left: 50rem;
+
+	
+}
+
+
+.banner2 {
+	
+  font-size: 1rem;
+  letter-spacing: 0.111rem;
+  color:black;
+   margin-top: -24.35rem;
+	margin-left: 41rem;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	background-color:white;
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+	width: 47%;
+	padding-left: 1rem;
+	border: thin black solid;
+	
+
+  }
+
+
+.banner3{
+	display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: right;
+  height: 35rem;
+  background-color:silver;
+  color:black;
+	margin-top: -4rem;
+  margin-left: 1.333rem;
+	
+}
+
+.banner7{ 
+
+display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: right;
+  height: 28rem;
+  background-color:silver;
+  color:black;
+	margin-top: -4rem;
+  padding-left: 1.333rem;
+	
+
+
+}
+
+.banner8{
+	font-size: 1rem;
+  letter-spacing: 0.111rem;
+  color:black;
+   margin-top: -18.17rem;
+	margin-left: 41rem;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	background-color:white;
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+	padding-left: 1rem;
+	border: thin black solid;
+	width: 47%;
+	
+}
+
+
+.banner4{
+	  font-size: 1rem;
+  letter-spacing: 0.111rem;
+  color:black;
+	font-weight:500;
+   
+	margin-left: 41rem;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	background-color:silver;
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+	width: 47%;
+	padding-left: 1rem;
+	border: thin black solid;
+
+	
+}
+
+
+
+  
+   
+
+
+#photos {
+
+	
+	padding-top:2.55rem;
+	
+	background-color:silver;
+	padding-left: 1.33rem;
+	
+	vertical-align: top;
+    
+   margin-left: 15rem;
+	width: 60%;
+	
+  flex-direction: column; 
+	
+
+
+  
+
+}
+
+#photos2{
+	
+padding-top:2.55rem;
+	margin-top: -40rem;
+	margin-left: 25rem;
+	background-color:silver;
+
+	width: 65%;
+	padding-left: 1.33rem;
+	vertical-align: top;
+	
+
+  flex-direction:column; 
+ 
+  
+  text-align: center;
+
+
+
+
+}
+
+
+h3 {
+	padding-bottom: .555rem;
+	 font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	
+	
+	
+}
+
+h9{
+	
+ 
+ font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+ font-weight: bold;
+	
+}
+
+h10{
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	margin-left:1.333rem;
+}
+
+h1{ margin-right: 1.33rem;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+ 
+}
+
+	
+h8{font-style: bold; 
+ font-size:1.388rem;
+ font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+ font-weight: bold;
+	margin-left:1.33rem;
+
+}	
+
+
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width:80rem;
+	border: thin black solid;
+
+}
+
+  .banner h1 {
+    font-size: 6rem;
+  }
+	.banner2 h1{
+		font-size: 6rem;
+	}
+
+
+
+
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  background-color:silver;
+  color:black;
+  margin-top: -12.05rem;
+  margin-right: 30rem;
+ font-style: bold; 
+ font-size:1.388rem;
+ font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+ font-weight: bold;
+	text-shadow: 2px 2px #ffffff; 
+  
+  
+}
+
+.photo .image-container {
+ display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: right;
+  height: 50rem;
+  background-color:silver;
+  color:black;
+  padding-left: 1.333rem;
+  
+}
+
+.contain {
+	font-style: bold; 
+ font-size:1.388rem;
+ font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+ font-weight: bold;
+	
+
+	
+  
+}
+
+.contain2{
+	font-style: bold; 
+ font-size: 1.388rem;
+ font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+ font-weight: bold;
+ padding-left:33.77rem;
+	padding-bottom:1.11rem;
+	
+}
+
+
+a.btn {
+	background-color:grey;
+	border-radius: .1111px;
+  color:white;
+  font-size: 1rem;
+  box-shadow: 0px 2px 4px rgba(0,0,0,1);
+  letter-spacing: 1px;
+  padding: .888rem 1.777rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition: box-shadow 1s ease;
+	transition: box-shadow 1s ease;
+	margin-left: 55rem;
+	margin-right: 13rem;
+
+	
+	
+
+	
+}
+
+
+
+
+@media only screen and (max-width: 680px) {
+ 	}
+
+
+
+
+
+	@media only screen and (max-width: 750px) {
+  footer {
+    flex-direction: column;
+    padding: 0 10% 2rem 10%;
+	  border-top:thin white solid;
+	  margin-top: 2rem;
+	 
+  }
+
+  footer .image-container {
+    height:16.667rem;
+    margin-bottom: 2rem;
+	  padding-top:2rem;
+    overflow: hidden
+		
+  }
+}
